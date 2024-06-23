@@ -1,14 +1,15 @@
-const QuizStart = () => {
+function QuizStart({ questions }) {
+  console.log(questions);
   return (
     <div className="quiz">
       <div className="quiz-header">
-        <h2>QUESTIONS</h2>
+        <h2>{questions.question}</h2>
       </div>
       <div className="quiz-body">
-        <li>Answer 1</li>
-        <li>Answer 2</li>
-        <li>Answer 3</li>
-        <li>Answer 4</li>
+        {/*displaying answers mapping through questions options index*/}
+        {questions.options.map((option, index) => (
+          <li key={option}>{option}</li>
+        ))}
       </div>
       {/*number of questions*/}
       <div className="quiz-footer">
@@ -17,6 +18,5 @@ const QuizStart = () => {
       </div>
     </div>
   );
-};
-
+}
 export default QuizStart;

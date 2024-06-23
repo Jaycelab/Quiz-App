@@ -17,18 +17,29 @@ function reducer(state, action) {
       return { ...state, status: "active" };
   }
 }
+{
+  /*passing index instead of 0*/
+}
 
 const initialState = {
   questions: [],
   status: "loading",
+  index: 0,
 };
 
-function App() {
+function App() { 
   {
     /*clearing state. Reducer to update initial state*/
   }
 
-  const [{ status, questions }, dispatch] = useReducer(reducer, initialState);
+  {
+    /*question with an initial state of 0, deconstructing */
+  }
+
+  const [{ status, questions, index }, dispatch] = useReducer(
+    reducer,
+    initialState
+  );
 
   {
     /*fetching questions from QuizQuestions array and updating the state. Using type to display content */
@@ -46,7 +57,9 @@ function App() {
   return (
     <main className="container">
       {status === "ready" && <StartScreen dispatch={dispatch} />}
-      {status === "active" && <QuizStart />}
+      {status === "active" && (
+        <QuizStart questions={questions[index]} dispatch={dispatch} />
+      )}
     </main>
   );
 }
