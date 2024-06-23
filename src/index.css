@@ -56,15 +56,16 @@ body {
   font-size: 4rem;
 }
 
-/*.quiz-wrapper h2 {
-  font-size: 3rem;
-  color: #fd0909;
-}
-/*
-
 .quiz-wrapper p {
   margin: 1rem 0;
 }
+
+/*.quiz-wrapper h2 {
+  font-size: 3rem;
+  color: #fd0909;
+}/*
+
+
 
 /* button */
 .btn-start {
