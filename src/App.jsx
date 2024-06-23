@@ -27,7 +27,7 @@ const initialState = {
   index: 0,
 };
 
-function App() { 
+function App() {
   {
     /*clearing state. Reducer to update initial state*/
   }

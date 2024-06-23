@@ -13,7 +13,7 @@ body {
   fill: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/public/images/background2.jpg");
+  background-image: url("/public/images/background3.jpg");
 
   font-family: "Akaya Telivigala", sans-serif;
   display: flex;
@@ -24,14 +24,15 @@ body {
 
 /* main */
 .container {
+  height: 100%;
   width: 780px; /* desktop*/
   /*background-color: #7e7e7e;*/
-  background: linear-gradient(420deg, #faf6f6, #302d2d, #7e7e7e);
+  background: linear-gradient(420deg, #b8b6b6, #302d2d, #c7b861);
   background-size: 180% 180%;
-  animation: gradient-animation 15s ease infinite;
-  border-radius: 5px;
-  padding: 2px;
-  opacity: 0.9;
+  animation: gradient-animation 20s ease infinite;
+  border-radius: 55px;
+  padding: 10px;
+  /* opacity: 0.9;*/
 }
 
 @keyframes gradient-animation {
@@ -55,12 +56,12 @@ body {
 
 .quiz-wrapper h3 {
   font-weight: lighter;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
 }
 
 .quiz-wrapper p {
-  margin: 1rem 0;
-  padding-top: 0.5rem;
+  margin: 0.8rem 0;
+  padding-top: 0.8rem;
 }
 
 /*.quiz-wrapper h2 {
