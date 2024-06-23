@@ -8,6 +8,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
+
   fill: rgb(0, 0, 0);
   background-size: 500px;
   background-repeat: repeat;
@@ -19,13 +20,30 @@ body {
   min-height: 90vh;
 }
 
+/* main */
 .container {
   width: 780px; /* desktop*/
-  background-color: #f1a156;
+  /*background-color: #7e7e7e;*/
+  background: linear-gradient(420deg, #faf6f6, #464343, #7e7e7e);
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
   border-radius: 5px;
   padding: 2px;
 }
 
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 69%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 33%;
+  }
+}
+
+/* quiz container*/
 .quiz-wrapper {
   font-size: 1.2rem;
   padding: 2rem;
@@ -43,6 +61,11 @@ body {
   color: #fd0909;
 }
 
+.quiz-wrapper p {
+  margin: 1rem 0;
+}
+
+/* button */
 .btn-start {
   outline: none;
   border: none;
@@ -55,36 +78,75 @@ body {
   border-radius: 2px;
 }
 
-/*container spacing */
-.quiz-wrapper p {
-  margin: 1rem 0;
+.btn-next {
+  outline: none;
+  border: none;
+  background-color: #1e9438ee;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.7rem 2rem;
+  font-family: inherit;
+  border-radius: 2px;
 }
-
-.quiz .quiz_header {
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+/*container spacing */
+.quiz .quiz-header {
+  box-shadow: inset 0 0 25px rgb(223, 223, 230);
   color: #fff;
   padding: 2rem;
 }
 
+/* quiz body */
 .quiz .quiz-body {
   padding: 2rem;
+  /* check if flex works better after
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
 }
 
+/*answer list*/
 .quiz .quiz-body li {
   list-style-type: none;
   margin: 1rem 0;
-  background-color: #e09752;
+  width: 100%;
+  background-color: #14130f;
   color: #fff;
   font-size: 1.2rem;
-  color: #212f3d;
+
   padding: 1rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .quiz .quiz-body li:hover {
   margin-left: 1rem;
-  width: 15%;
-  color: #fff9f3;
+
+  font-size: 1.3rem;
+  color: #7e7e7e;
+}
+
+.quiz .quiz-body li.correct {
+  background-color: #11c44d;
+  margin-left: 1rem;
+  cursor: not-allowed;
+}
+
+.quiz .quiz-body li.correct {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.quiz .quiz-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset 0 0 5px rgb(70, 70, 73);
+  color: #fff !important;
+  padding: 1rem 2rem;
+}
+
+.quiz .quiz-footer p {
+  font-size: 1.2rem;
 }

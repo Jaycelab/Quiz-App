@@ -2,7 +2,7 @@ const QuizStart = () => {
   return (
     <div className="quiz">
       <div className="quiz-header">
-        <h2>Questions</h2>
+        <h2>QUESTIONS</h2>
       </div>
       <div className="quiz-body">
         <li>Answer 1</li>
@@ -12,8 +12,8 @@ const QuizStart = () => {
       </div>
       {/*number of questions*/}
       <div className="quiz-footer">
-        <p>Total Questions 0/50</p>
-        <button className="btn-start">Next</button>
+        <p>Number of Questions 0/50</p>
+        <button className="btn-next">Next</button>
       </div>
     </div>
   );
