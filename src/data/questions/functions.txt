@@ -1,0 +1,287 @@
+1. What is the role of the 'this' keyword in constructor functions?
+A. Preventing access to object properties
+B. Exposing properties to the object
+C. Creating a new context for the function
+D. Accessing the parent function's context
+
+2. What does the 'Fat Arrow' =&gt; symbolize in arrow functions?
+A. Start of function definition
+B. End of function definition
+C. Return statement
+D. Function call
+
+3. When using arrow functions, what is not necessary if the function is only returning a single expression?
+A. Parentheses
+B. Return keyword
+C. Curly braces
+D. Semicolon
+
+4. What is the purpose of using the shorthand syntax for object properties in JavaScript?
+A. To reduce code duplication
+B. To confuse other developers
+C. To increase code complexity
+D. To slow down code execution
+
+5. In JavaScript, what does the bind method do when used with the 'this' keyword?
+A. Returns the function name
+B. Invokes the function immediately
+C. Creates a new function with 'this' set to a provided value
+D. Binds 'this' context to the global object
+
+6. How can you access an object within a function using the 'this' keyword?
+A. Using the run() method
+B. Using the execute() method
+C. Using the bind() method
+D. Using the call() method
+
+7. What is a key difference between arrow functions and regular functions in JavaScript?
+A. Regular functions inherit the 'this' context of the parent function
+B. Arrow functions always refer to the window context
+C. Arrow functions create their own 'this' context
+D. Regular functions do not have access to the 'this' keyword
+
+8. How are constructor functions distinguished from regular functions in JavaScript?
+A. They do not expose properties to the object
+B. They cannot be used with the new keyword
+C. They are named with a capital letter
+D. They are used for single instances of an object
+
+9. What does the __proto__ property in JavaScript allow access to?
+A. The prototype of an object
+B. The parent object's properties
+C. The constructor function of an object
+D. The object's own properties
+
+10. When instantiating a new object using a constructor function, what keyword is used?
+A. instantiate
+B. create
+C. new
+D. initialize
+
+11. Why does declaring 'this' keyword inside an arrow function within an object lead to an error?
+A. Arrow functions create a new 'this' context
+B. Arrow functions have their own 'this' context
+C. Arrow functions inherit the context of the parent function
+D. Arrow functions always refer to the object's context
+
+12. What is the purpose of using the new keyword with constructor functions in JavaScript?
+A. To modify object properties
+B. To create multiple instances of an object
+C. To delete existing objects
+D. To access object methods
+
+13. How are arrow functions different from regular functions in terms of returning values?
+A. Arrow functions require explicit return statements
+B. Arrow functions return a single expression without 'return'
+C. Arrow functions always return undefined
+D. Arrow functions cannot return values
+
+14. How are arrow functions different from regular functions in terms of 'this' context?
+A. Arrow functions always refer to the object's context
+B. Arrow functions do not create their own 'this' context
+C. Regular functions inherit the 'this' context of the arrow function
+D. Regular functions have a fixed 'this' context
+
+15. What is a key requirement for constructor function names according to the content?
+A. Begin with a lower-case character
+B. Begin with an upper-case character
+C. Contain special characters
+D. Be at least 10 characters long
+
+16. What is the purpose of default parameters in a function?
+A. To restrict the number of arguments
+B. To assign a default value if no argument is passed
+C. To make the function mandatory
+D. To increase the complexity of the function
+
+17. How are default parameters useful in avoiding undefined values in code?
+A. By providing a default value if no argument is passed
+B. By assigning 'null' to all parameters
+C. By throwing an error if no argument is passed
+D. By ignoring missing arguments
+
+18. What happens to function parameters if no value is assigned to them?
+A. They default to 'null'
+B. They default to 'undefined'
+C. They default to '0'
+D. They throw an error
+
+19. In the context of constructor functions, what is the purpose of pre-defining the template object?
+A. To avoid using 'this' context
+B. To complicate the instantiation process
+C. To provide a set of properties for object creation
+D. To eliminate the need for constructor functions
+
+20. What is the role of a nullish coalescing operator in setting default parameter values?
+A. It converts 'null' to 'undefined'
+B. It defaults to 0 even when passing 'null'
+C. It sets 'null' to 0
+D. It throws an error for 'null' values
+
+21. How can default parameters be utilized in a function with multiple parameters?
+A. By initializing parameters to default values based on previous parameters
+B. By ignoring all parameters except the first one
+C. By assigning 'null' to all parameters except the first one
+D. By requiring all parameters to have default values
+
+22. What problem do default parameters help solve when invoking a function without passing all necessary arguments?
+A. They force the function to throw an error
+B. They prevent the function from executing
+C. They provide alternate values if arguments are missing
+D. They ignore the missing arguments
+
+23. Why is it important for constructor function names to begin with an upper-case character?
+A. To indicate they are constructors
+B. To make them case-insensitive
+C. To confuse developers
+D. To prevent object instantiation
+
+24. What is the traditional way to handle missing arguments in a function before the introduction of default parameters?
+A. Implement a series of checks in the function's body
+B. Throw an error and stop execution
+C. Ignore the missing arguments
+D. Assign 'undefined' to all missing arguments
+
+25. When using the nullish coalescing operator in a function, what does it do?
+A. Check if a function is hoisted
+B. Return a default value if a parameter is not given a value
+C. Assign a number method to only accept a number as a parameter
+D. Return undefined if a parameter is not given a value
+
+26. How are function declarations executed in JavaScript?
+A. Using the keyword 'run'
+B. Using the keyword 'execute'
+C. Using the keyword 'function'
+D. Using the keyword 'start'
+
+27. What is the term for data passed into a function in JavaScript?
+A. Arguments
+B. Variables
+C. Parameters
+D. Constants
+
+28. What keyword is used to return a value and terminate a function in JavaScript?
+A. End
+B. Finish
+C. Stop
+D. Return
+
+29. How are function declarations hoisted in JavaScript?
+A. To the function scope
+B. To the global scope
+C. To the local scope
+D. To the conditional scope
+
+30. In JavaScript, where is the code inside a function accessible?
+A. Outside the function
+B. In the global scope
+C. Within the function only
+D. In the conditional scope
+
+31. What is the classification of functions in JavaScript?
+A. Variables
+B. Constants
+C. Objects
+D. Arrays
+
+32. What analogy is used to explain functions as objects in JavaScript?
+A. Computer processor
+B. Car engine
+C. Building blocks
+D. House foundation
+
+33. What term describes functions being able to be passed as arguments to other functions in JavaScript?
+A. First-class objects
+B. Third-party functions
+C. Second-class citizens
+D. Primary functions
+
+34. How do functions contribute to code reusability in JavaScript?
+A. By exposing their internals
+B. By slowing down program execution
+C. By limiting the use of loops
+D. By acting as building blocks to compose multiple functions together
+
+35. What is function hoisting?
+A. Moving function declarations to the top of their containing scope during the compile phase
+B. Creating functions without a name
+C. Assigning functions to variables
+D. Returning a default value if a parameter is not given a value
+
+36. What is the major difference between function expressions and function declarations?
+A. Function expressions are not hoisted to the top of the global scope
+B. Function expressions can be used before they are declared
+C. Function expressions are hoisted to the top of the global scope
+D. Function expressions cannot be assigned to variables
+
+37. What is the purpose of functions in JavaScript?
+A. To limit the use of variables
+B. To increase redundancy in code
+C. To encapsulate multiple statements into a single unit
+D. To slow down program execution
+
+38. What does the 'this' keyword refer to in JavaScript?
+A. The function itself
+B. The global window object
+C. The object that the function is a property of
+D. The object reference in a function
+
+39. In a web browser, where does the 'this' keyword point to outside a function?
+A. The global window object
+B. The function itself
+C. The object reference
+D. The global scope
+
+40. What happens when 'use strict' is used in JavaScript regarding the 'this' keyword?
+A. It points to the global scope
+B. It returns undefined inside a function
+C. It allows access to object properties
+D. It creates anonymous functions
+
+41. What does object shorthand syntax allow in JavaScript?
+A. Creating a function inside an object without using the function keyword
+B. Accessing global variables
+C. Returning undefined values
+D. Assigning functions to variables
+
+42. Why are functions inside an object using the 'this' keyword often labeled as methods?
+A. Because they return undefined values
+B. Because it offers a way to build in features and behaviors into an object
+C. Because they are hoisted to the top of the lexical environment
+D. Because they are anonymous functions
+
+43. What does the 'this' keyword point to when accessing properties in a function?
+A. The function itself
+B. The global window object
+C. The object reference
+D. The global scope
+
+44. What does function expression hoisting refer to?
+A. Not hoisting to the top of the lexical environment
+B. Assigning functions to variables
+C. Moving function declarations to the top of the global scope
+D. Returning a default value if a parameter is not given a value
+
+45. What does the 'this' keyword in a function provide access to?
+A. Function name
+B. Context within which the function is executed
+C. Global object
+D. Return value
+
+46. How can you bind the 'this' context to an object using a built-in method?
+A. bind() method
+B. execute() method
+C. run() method
+D. call() method
+
+47. What is the main difference between the call() and bind() methods in JavaScript?
+A. call() creates a new function, bind() invokes the function immediately
+B. call() is used for arrow functions, bind() is used for regular functions
+C. call() binds 'this' context, bind() returns a new function
+D. call() is used for asynchronous functions, bind() is used for synchronous functions
+
+48. What type of functions are arrow functions in JavaScript?
+A. Named functions
+B. Anonymous functions
+C. Recursive functions
+D. Callback functions
