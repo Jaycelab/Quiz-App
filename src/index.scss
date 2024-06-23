@@ -1,5 +1,5 @@
 .sentence {
-  font-size: clamp(1.5rem, calc(1rem + 3vw), 1rem);
+  font-size: clamp(1.5rem, calc(1rem + 3vw), 2rem);
   overflow: visible;
   padding: 0.5em;
 }
@@ -10,7 +10,7 @@
   transform: translateY(-0.25em);
   display: inline-block;
   animation: burst_in 3s cubic-bezier(0, 1.62, 1, 1.6) infinite;
-  color: #ecfa2f;
+  color: #f7e711;
 }
 
 @keyframes burst_in {
