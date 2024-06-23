@@ -1,0 +1,40 @@
+.sentence {
+  font-size: clamp(1.5rem, calc(1rem + 3vw), 1rem);
+  overflow: visible;
+  padding: 0.5em;
+}
+
+.letter {
+  line-height: 0;
+  opacity: 0;
+  transform: translateY(-0.25em);
+  display: inline-block;
+  animation: burst_in 3s cubic-bezier(0, 1.62, 1, 1.6) infinite;
+  color: #ecfa2f;
+}
+
+@keyframes burst_in {
+  25%,
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@for $i from 1 through 17 {
+  .sentence-2 .letter:nth-of-type(#{$i}) {
+    animation-delay: $i * 0.06s;
+  }
+  .sentence-3 .letter:nth-of-type(#{$i}) {
+    animation-delay: ($i * $i * 0.0035s);
+  }
+  .sentence-4 .letter:nth-of-type(#{$i}) {
+    animation-delay: $i * $i * $i * $i * 0.0000075s;
+  }
+  .sentence-5 .letter:nth-of-type(#{$i}) {
+    animation-delay: ((17 - ($i * $i)) * 0.0025s) + 0.55s;
+  }
+  .sentence-6 .letter:nth-of-type(#{$i}) {
+    animation-delay: ($i / 17 * ($i - 17) * 0.1s) + 0.3s;
+  }
+}

@@ -20,3 +20,4 @@ const QuizStart = () => {
 };
 
 export default QuizStart;
+

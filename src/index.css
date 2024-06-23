@@ -8,7 +8,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
-
+  height: 100%;
   fill: rgb(0, 0, 0);
   background-size: 500px;
   background-repeat: repeat;
@@ -46,7 +46,7 @@ body {
 /* quiz container*/
 .quiz-wrapper {
   font-size: 1.2rem;
-  padding: 2rem;
+
   color: #fff !important;
   text-align: center;
 }
@@ -56,10 +56,10 @@ body {
   font-size: 4rem;
 }
 
-.quiz-wrapper h2 {
+*/.quiz-wrapper h2 {
   font-size: 3rem;
   color: #fd0909;
-}
+}/*
 
 .quiz-wrapper p {
   margin: 1rem 0;
