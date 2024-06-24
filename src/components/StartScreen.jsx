@@ -3,7 +3,7 @@ function StartScreen({ dispatch }) {
     <div className="quiz-wrapper">
       <h3>Are you a</h3>
       <div className="sentence sentence-1">
-        <span className="letter">J a v a c r i p t</span>
+        <span className="letter">JS</span>
       </div>
 
       <div className="sentence sentence-2">
@@ -51,16 +51,23 @@ function StartScreen({ dispatch }) {
 
       <div className="sentence sentence-6">
         <span className="letter">J</span>
-        <span className="letter">&nbsp;</span>
+        <span className="letter">a</span>
+        <span className="letter">v</span>
+        <span className="letter">a</span>
         <span className="letter">S</span>
+        <span className="letter">c</span>
+        <span className="letter">r</span>
+        <span className="letter">i</span>
+        <span className="letter">p</span>
+        <span className="letter">t</span>
       </div>
 
-      {/*test start*/}
+      {/*birds test start*/}
       <div class="main-container">
         <div class="bird-container bird-container--one">
           <div class="bird bird--one">
             <div className="sentence sentence-6">
-              <span className="letter">JS&nbsp;ES6</span>
+              <span className="letter">conditionals</span>
             </div>
           </div>
         </div>
@@ -69,7 +76,7 @@ function StartScreen({ dispatch }) {
           <div class="bird bird--two">
             {" "}
             <div className="sentence sentence-6">
-              <span className="letter">ECMAScript</span>
+              <span className="letter">arrays</span>
             </div>
           </div>
         </div>
@@ -78,8 +85,7 @@ function StartScreen({ dispatch }) {
           <div class="bird bird--three">
             {" "}
             <div className="sentence sentence-6">
-              <span className="letter">J</span>
-              <span className="letter">S</span>
+              <span className="letter">objects</span>
             </div>
           </div>
         </div>
@@ -88,7 +94,7 @@ function StartScreen({ dispatch }) {
           <div class="bird bird--four">
             {" "}
             <div className="sentence sentence-6">
-              <span className="letter">Javascript</span>
+              <span className="letter">functions</span>
             </div>
           </div>
         </div>
