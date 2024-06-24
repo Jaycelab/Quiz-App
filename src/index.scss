@@ -42,13 +42,15 @@
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
 
 .main-container {
+  z-index: 1;
+  overflow: hidden;
   position: relative;
   display: flex;
   margin: 5 auto;
   align-items: center;
   justify-content: center;
   // min-height: 100vh;
-  min-height: 1rem;
+  min-height: 5rem;
   padding: 2rem;
 }
 
@@ -84,7 +86,7 @@
 }
 .bird-container {
   position: absolute;
-  top: -50px;
+  top: -25px;
   left: -10%;
   transform: scale(0) translateX(-10vw);
   will-change: transform;

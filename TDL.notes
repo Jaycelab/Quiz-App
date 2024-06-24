@@ -1,2 +1,3 @@
 - Either fetch the data from local variable or use the data from the local storage (json file) to display the data
-- use useReducer to manage the state of the application (number of questions, total correct answers, total wrong answers, current question number, etc) test
+~~-use useReducer to manage the state of the application (number of questions, total correct answers, total wrong answers, current question number, etc) test~~
+- Bird animation needs a reduced duration in mobile view

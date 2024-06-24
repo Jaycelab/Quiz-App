@@ -96,8 +96,8 @@ function StartScreen({ dispatch }) {
       {/*test end*/}
 
       <h3 className="stan">Stan?</h3>
-      <p>Number of Questions: 0</p>
-      <p>Total Score: 0</p>
+      <p>Total Questions: 50</p>
+      <p>Total Score: 0/50</p>
       <button
         className="btn-start"
         onClick={() => dispatch({ type: "active" })}
