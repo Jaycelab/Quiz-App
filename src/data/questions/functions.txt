@@ -4,7 +4,7 @@ B. Exposing properties to the object
 C. Creating a new context for the function
 D. Accessing the parent function's context
 
-2. What does the 'Fat Arrow' =&gt; symbolize in arrow functions?
+2. What does the 'Fat Arrow' => symbolize in arrow functions?
 A. Start of function definition
 B. End of function definition
 C. Return statement

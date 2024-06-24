@@ -51,6 +51,12 @@ function App() {
   }, []);
 
   {
+    /*Displaying total number of questions*/
+  }
+
+  const totalQuestions = questions.length;
+
+  {
     /*if above condition is true, data received true , move to return section*/
     /*Status & Start Screen true*/
   }
@@ -58,7 +64,12 @@ function App() {
     <main className="container">
       {status === "ready" && <StartScreen dispatch={dispatch} />}
       {status === "active" && (
-        <QuizStart questions={questions[index]} dispatch={dispatch} />
+        <QuizStart
+          questions={questions[index]}
+          dispatch={dispatch}
+          totalQuestions={totalQuestions}
+          index={index + 1}
+        />
       )}
     </main>
   );

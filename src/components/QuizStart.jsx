@@ -1,4 +1,4 @@
-function QuizStart({ questions }) {
+function QuizStart({ questions, totalQuestions, index }) {
   console.log(questions);
   return (
     <div className="quiz">
@@ -13,7 +13,10 @@ function QuizStart({ questions }) {
       </div>
       {/*number of questions*/}
       <div className="quiz-footer">
-        <p>Number of Questions 0/50</p>
+        <p>
+          {/*using index + for current question */}
+          Number of Questions {index} / {totalQuestions}
+        </p>
         <button className="btn-next">Next</button>
       </div>
     </div>
