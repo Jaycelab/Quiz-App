@@ -17,7 +17,7 @@
   25%,
   80% {
     opacity: 1;
-    transform: translateY(0); 
+    transform: translateY(0);
   }
 }
 @for $i from 1 through 17 {
@@ -45,8 +45,10 @@
   position: relative;
   display: flex;
   margin: 5 auto;
+  align-items: center;
+  justify-content: center;
   // min-height: 100vh;
-  min-height: 1.5rem;
+  min-height: 1rem;
   padding: 2rem;
 }
 

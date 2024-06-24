@@ -69,7 +69,7 @@ function StartScreen({ dispatch }) {
           <div class="bird bird--two">
             {" "}
             <div className="sentence sentence-6">
-              <span className="letter">ecmascript</span>
+              <span className="letter">ECMAScript</span>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ function StartScreen({ dispatch }) {
           <div class="bird bird--four">
             {" "}
             <div className="sentence sentence-6">
-              <span className="letter">javascript</span>
+              <span className="letter">Javascript</span>
             </div>
           </div>
         </div>
