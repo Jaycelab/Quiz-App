@@ -1,0 +1,791 @@
+1. What is the purpose of a counter in loops?
+A. Evaluate a Boolean expression
+B. Repeat a block of code until false
+C. Track the number of iterations
+D. Resume loop execution
+
+2. Which keyword is used to resume execution in a loop?
+A. continue
+B. break
+C. switch
+D. terminate
+
+3. In a for loop, when does the loop terminate?
+A. When break keyword is used
+B. When the condition is truthy
+C. When the condition is falsy
+D. When continue keyword is used
+
+4. What is the purpose of an iterator in loops?
+A. Track the number of iterations
+B. Evaluate a Boolean expression
+C. Repeat a block of code until the condition is false
+D. Resume loop execution
+
+5. In a for loop, when does the loop terminate?
+A. When break keyword is used
+B. When the condition is truthy
+C. When the condition is falsy
+D. When continue keyword is used
+
+6. What is the purpose of an iterator in loops?
+A. Track the number of iterations
+B. Evaluate a Boolean expression
+C. Repeat a block of code until the condition is false
+D. Resume loop execution
+
+7. What type of loop is used to iterate over the properties of an object?
+A. For Loop
+B. While Loop
+C. Do While Loop
+D. For In Loop
+
+8. What type of loop is used to iterate over the properties of an object?
+A. For Loop
+B. While Loop
+C. Do While Loop
+D. For In Loop
+
+9. What is the advantage of using nested loops?
+A. Terminate the loop
+B. Iterate over a multi-dimensional array or object
+C. Iterate over a set of instructions
+D. Resume loop execution
+
+10. Which operator is used to increase the value of the counter variable by 1 in a for loop?
+A. Addition assignment operator
+B. Equal operator
+C. Increment operator
+D. Logical operator
+
+11. What happens when the condition in a loop is evaluated to be false?
+A. Loop skips to the next iteration
+B. Loop continues indefinitely
+C. Loop terminates and stops
+D. Loop resumes execution
+
+12. Which type of loop offers a way to iterate over the values of an iterable object?
+A. For Loop
+B. While Loop
+C. Do While Loop
+D. For Of Loop
+
+13. What is the purpose of the continue keyword in loops?
+A. Resume loop execution
+B. Exit the loop
+C. Terminate the loop
+D. Add a value to the counter variable
+
+14. Which operator is used to increase the value of the counter variable by 1 in a for loop?
+A. Addition assignment operator
+B. Equal operator
+C. Increment operator
+D. Logical operator
+
+15. What happens when the condition in a loop is evaluated to be false?
+A. Loop skips to the next iteration
+B. Loop continues indefinitely
+C. Loop terminates and stops
+D. Loop resumes execution
+
+16. Which type of loop offers a way to iterate over the values of an iterable object?
+A. For Loop
+B. While Loop
+C. Do While Loop
+D. For Of Loop
+
+17. What is the purpose of the continue keyword in loops?
+A. Resume loop execution
+B. Exit the loop
+C. Terminate the loop
+D. Add a value to the counter variable
+
+18. What is the purpose of the for...of loop in JavaScript?
+A. To loop over iterable objects and access their values directly
+B. To loop over properties of objects
+C. To skip the current iteration and move to the next one
+D. To terminate the loop and exit
+
+19. Which keyword is used to access the value of the current element in an array within a function?
+A. Index
+B. Argument
+C. Element
+D. Key
+
+20. Why is using the for...in loop with arrays not recommended?
+A. It directly accesses the values of elements in the collection
+B. It provides access to both index and value
+C. It can lead to unexpected results and does not honor the order of elements
+D. It terminates the loop and exits
+
+21. What does the break statement do in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+22. In the for...in loop, what does it allow you to loop over when used with objects?
+A. Properties
+B. Indexes
+C. Values
+D. Keys
+
+23. What does the for...of loop give access to in terms of the current element?
+A. Key
+B. Value
+C. Index
+D. Object
+
+24. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+25. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+26. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+27. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+28. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+29. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+30. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+31. Why is using the for...in loop with arrays not recommended?
+A. It directly accesses the values of elements in the collection
+B. It provides access to both index and value
+C. It can lead to unexpected results and does not honor the order of elements
+D. It terminates the loop and exits
+
+32. What does the break statement do in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+33. In the for...in loop, what does it allow you to loop over when used with objects?
+A. Properties
+B. Indexes
+C. Values
+D. Keys
+
+34. What does the for...of loop give access to in terms of the current element?
+A. Key
+B. Value
+C. Index
+D. Object
+
+35. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+36. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+37. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+38. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+39. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+40. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+41. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+42. What loop is recommended for iterating over arrays in JavaScript?
+A. for-in loop
+B. while loop
+C. for-of loop
+D. do-while loop
+
+43. Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?
+A. for-of loop
+B. for-in loop
+C. forEach loop
+D. if-else loop
+
+44. Why is using the for...in loop with arrays not recommended?
+A. It directly accesses the values of elements in the collection
+B. It provides access to both index and value
+C. It can lead to unexpected results and does not honor the order of elements
+D. It terminates the loop and exits
+
+45. What does the break statement do in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+46. In the for...in loop, what does it allow you to loop over when used with objects?
+A. Properties
+B. Indexes
+C. Values
+D. Keys
+
+47. What does the for...of loop give access to in terms of the current element?
+A. Key
+B. Value
+C. Index
+D. Object
+
+48. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+49. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+50. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+51. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+52. What loop is recommended for iterating over arrays in JavaScript?
+A. for-in loop
+B. while loop
+C. for-of loop
+D. do-while loop
+
+53. Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?
+A. for-of loop
+B. for-in loop
+C. forEach loop
+D. if-else loop
+
+54. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+55. What loop is recommended for iterating over arrays in JavaScript?
+A. for-in loop
+B. while loop
+C. for-of loop
+D. do-while loop
+
+56. Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?
+A. for-of loop
+B. for-in loop
+C. forEach loop
+D. if-else loop
+
+57. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+58. Why is the for..in loop not recommended for use with arrays in JavaScript?
+A. It is easier to use than for-of loop
+B. It is slower than for-of loop
+C. It is faster than for-of loop
+D. It is the same as for-of loop
+
+59. Why is using the for...in loop with arrays not recommended?
+A. It directly accesses the values of elements in the collection
+B. It provides access to both index and value
+C. It can lead to unexpected results and does not honor the order of elements
+D. It terminates the loop and exits
+
+60. What does the break statement do in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+61. In the for...in loop, what does it allow you to loop over when used with objects?
+A. Properties
+B. Indexes
+C. Values
+D. Keys
+
+62. What does the for...of loop give access to in terms of the current element?
+A. Key
+B. Value
+C. Index
+D. Object
+
+63. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+64. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+65. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+66. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+67. What loop is recommended for iterating over arrays in JavaScript?
+A. for-in loop
+B. while loop
+C. for-of loop
+D. do-while loop
+
+68. Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?
+A. for-of loop
+B. for-in loop
+C. forEach loop
+D. if-else loop
+
+69. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+70. Why is the for..in loop not recommended for use with arrays in JavaScript?
+A. It is easier to use than for-of loop
+B. It is slower than for-of loop
+C. It is faster than for-of loop
+D. It is the same as for-of loop
+
+71. Which loop is optimized for generic objects rather than arrays in JavaScript?
+A. while loop
+B. for-of loop
+C. for-in loop
+D. do-while loop
+
+72. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+73. Why is the for..in loop not recommended for use with arrays in JavaScript?
+A. It is easier to use than for-of loop
+B. It is slower than for-of loop
+C. It is faster than for-of loop
+D. It is the same as for-of loop
+
+74. Which loop is optimized for generic objects rather than arrays in JavaScript?
+A. while loop
+B. for-of loop
+C. for-in loop
+D. do-while loop
+
+75. What is a key difference between for...of and for..in loops in JavaScript?
+A. for...of is slower than for..in
+B. for..in is used for arrays, for...of for objects
+C. for...of is used for arrays, for..in for objects
+D. for..in is easier to use than for...of
+
+76. Why is using the for...in loop with arrays not recommended?
+A. It directly accesses the values of elements in the collection
+B. It provides access to both index and value
+C. It can lead to unexpected results and does not honor the order of elements
+D. It terminates the loop and exits
+
+77. What does the break statement do in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+78. In the for...in loop, what does it allow you to loop over when used with objects?
+A. Properties
+B. Indexes
+C. Values
+D. Keys
+
+79. What does the for...of loop give access to in terms of the current element?
+A. Key
+B. Value
+C. Index
+D. Object
+
+80. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+81. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+82. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+83. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+84. What loop is recommended for iterating over arrays in JavaScript?
+A. for-in loop
+B. while loop
+C. for-of loop
+D. do-while loop
+
+85. Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?
+A. for-of loop
+B. for-in loop
+C. forEach loop
+D. if-else loop
+
+86. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+87. Why is the for..in loop not recommended for use with arrays in JavaScript?
+A. It is easier to use than for-of loop
+B. It is slower than for-of loop
+C. It is faster than for-of loop
+D. It is the same as for-of loop
+
+88. Which loop is optimized for generic objects rather than arrays in JavaScript?
+A. while loop
+B. for-of loop
+C. for-in loop
+D. do-while loop
+
+89. What is a key difference between for...of and for..in loops in JavaScript?
+A. for...of is slower than for..in
+B. for..in is used for arrays, for...of for objects
+C. for...of is used for arrays, for..in for objects
+D. for..in is easier to use than for...of
+
+90. Which loop is optimized for generic objects rather than arrays in JavaScript?
+A. while loop
+B. for-of loop
+C. for-in loop
+D. do-while loop
+
+91. What is a key difference between for...of and for..in loops in JavaScript?
+A. for...of is slower than for..in
+B. for..in is used for arrays, for...of for objects
+C. for...of is used for arrays, for..in for objects
+D. for..in is easier to use than for...of
+
+92. Which loop is suitable for iterating through the properties of an Object in JavaScript?
+A. forEach loop
+B. for-of loop
+C. for-in loop
+D. while loop
+
+93. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+94. Why is the for..in loop not recommended for use with arrays in JavaScript?
+A. It is easier to use than for-of loop
+B. It is slower than for-of loop
+C. It is faster than for-of loop
+D. It is the same as for-of loop
+
+95. Which loop is optimized for generic objects rather than arrays in JavaScript?
+A. while loop
+B. for-of loop
+C. for-in loop
+D. do-while loop
+
+96. What is a key difference between for...of and for..in loops in JavaScript?
+A. for...of is slower than for..in
+B. for..in is used for arrays, for...of for objects
+C. for...of is used for arrays, for..in for objects
+D. for..in is easier to use than for...of
+
+97. Which loop is suitable for iterating through the properties of an Object in JavaScript?
+A. forEach loop
+B. for-of loop
+C. for-in loop
+D. while loop
+
+98. What is a key difference between for...of and for..in loops in JavaScript?
+A. for...of is slower than for..in
+B. for..in is used for arrays, for...of for objects
+C. for...of is used for arrays, for..in for objects
+D. for..in is easier to use than for...of
+
+99. Which loop is suitable for iterating through the properties of an Object in JavaScript?
+A. forEach loop
+B. for-of loop
+C. for-in loop
+D. while loop
+
+100. What type of objects should be avoided when using the for..in loop in JavaScript?
+A. Arrays
+B. Iterable objects
+C. Objects
+D. Non-iterable objects
+
+101. In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?
+A. for-in loop
+B. for-of loop
+C. forEach loop
+D. while loop
+
+102. What is a key advantage of using the for...of loop over the for-in loop in JavaScript?
+A. It is more complex
+B. It is slower
+C. It is faster
+D. It is optimized for arrays
+
+103. What type of objects should be avoided when using the for..in loop in JavaScript?
+A. Arrays
+B. Iterable objects
+C. Objects
+D. Non-iterable objects
+
+104. In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?
+A. for-in loop
+B. for-of loop
+C. forEach loop
+D. while loop
+
+105. What is a key advantage of using the for...of loop over the for-in loop in JavaScript?
+A. It is more complex
+B. It is slower
+C. It is faster
+D. It is optimized for arrays
+
+106. Why is using the for...in loop with arrays not recommended?
+A. It directly accesses the values of elements in the collection
+B. It provides access to both index and value
+C. It can lead to unexpected results and does not honor the order of elements
+D. It terminates the loop and exits
+
+107. What does the break statement do in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+108. In the for...in loop, what does it allow you to loop over when used with objects?
+A. Properties
+B. Indexes
+C. Values
+D. Keys
+
+109. What does the for...of loop give access to in terms of the current element?
+A. Key
+B. Value
+C. Index
+D. Object
+
+110. Which naming convention is commonly used to represent the index of the current element in a for...of loop?
+A. el
+B. item
+C. i
+D. key
+
+111. What is the main difference between the for...of and for...in loops in JavaScript?
+A. for...of terminates the loop, while for...in skips iterations
+B. for...of gives access to both index and value, while for...in only gives access to values
+C. for...of accesses values directly, while for...in accesses properties
+D. for...of allows looping over properties, while for...in allows looping over values
+
+112. Which type of objects are suitable for iteration using the for...of loop?
+A. Objects with numeric properties
+B. Objects with non-numeric properties
+C. Iterable objects like arrays, strings, maps, sets, etc.
+D. Objects with nested structures
+
+113. What is the purpose of the continue statement in a loop?
+A. Skips the current iteration and moves to the next one
+B. Increments the counter in the loop
+C. Terminates the loop and exits
+D. Mutates the condition of the loop
+
+114. What loop is recommended for iterating over arrays in JavaScript?
+A. for-in loop
+B. while loop
+C. for-of loop
+D. do-while loop
+
+115. Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?
+A. for-of loop
+B. for-in loop
+C. forEach loop
+D. if-else loop
+
+116. What kind of objects can the for...of loop iterate over in JavaScript?
+A. Iterable objects
+B. Only objects
+C. Only arrays
+D. Non-iterable objects
+
+117. Why is the for..in loop not recommended for use with arrays in JavaScript?
+A. It is easier to use than for-of loop
+B. It is slower than for-of loop
+C. It is faster than for-of loop
+D. It is the same as for-of loop
+
+118. Which loop is optimized for generic objects rather than arrays in JavaScript?
+A. while loop
+B. for-of loop
+C. for-in loop
+D. do-while loop
+
+119. What is a key difference between for...of and for..in loops in JavaScript?
+A. for...of is slower than for..in
+B. for..in is used for arrays, for...of for objects
+C. for...of is used for arrays, for..in for objects
+D. for..in is easier to use than for...of
+
+120. Which loop is suitable for iterating through the properties of an Object in JavaScript?
+A. forEach loop
+B. for-of loop
+C. for-in loop
+D. while loop
+
+121. What type of objects should be avoided when using the for..in loop in JavaScript?
+A. Arrays
+B. Iterable objects
+C. Objects
+D. Non-iterable objects
+
+122. In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?
+A. for-in loop
+B. for-of loop
+C. forEach loop
+D. while loop
+
+123. What is a key advantage of using the for...of loop over the for-in loop in JavaScript?
+A. It is more complex
+B. It is slower
+C. It is faster
+D. It is optimized for arrays
+
+124. What type of objects should be avoided when using the for..in loop in JavaScript?
+A. Arrays
+B. Iterable objects
+C. Objects
+D. Non-iterable objects
+
+125. In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?
+A. for-in loop
+B. for-of loop
+C. forEach loop
+D. while loop
+
+126. What is a key advantage of using the for...of loop over the for-in loop in JavaScript?
+A. It is more complex
+B. It is slower
+C. It is faster
+D. It is optimized for arrays
+
+127. What type of objects should be avoided when using the for..in loop in JavaScript?
+A. Arrays
+B. Iterable objects
+C. Objects
+D. Non-iterable objects
+
+128. In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?
+A. for-in loop
+B. for-of loop
+C. forEach loop
+D. while loop
+
+129. What is a key advantage of using the for...of loop over the for-in loop in JavaScript?
+A. It is more complex
+B. It is slower
+C. It is faster
+D. It is optimized for arrays
+
+130. What type of objects should be avoided when using the for..in loop in JavaScript?
+A. Arrays
+B. Iterable objects
+C. Objects
+D. Non-iterable objects
+
+131. In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?
+A. for-in loop
+B. for-of loop
+C. forEach loop
+D. while loop
+
+132. What is a key advantage of using the for...of loop over the for-in loop in JavaScript?
+A. It is more complex
+B. It is slower
+C. It is faster
+D. It is optimized for arrays

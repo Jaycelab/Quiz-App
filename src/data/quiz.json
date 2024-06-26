@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "question": "What does the for...of loop give access to in terms of the current element?",
+      "options": ["A. Key", "B. Value", "C. Index", "D. Object"],
+      "answer": "C. Index"
+    },
+    {
+      "question": "What is a key advantage of using the for...of loop over the for-in loop in JavaScript?",
+      "options": [
+        "A. It is more complex",
+        "B. It is slower",
+        "C. It is faster",
+        "D. It is optimized for arrays"
+      ],
+      "answer": "D. It is optimized for arrays"
+    },
+    {
+      "question": "In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?",
+      "options": [
+        "A. for-in loop",
+        "B. for-of loop",
+        "C. forEach loop",
+        "D. while loop"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "What type of objects should be avoided when using the for..in loop in JavaScript?",
+      "options": [
+        "A. Arrays",
+        "B. Iterable objects",
+        "C. Objects",
+        "D. Non-iterable objects"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Which loop is suitable for iterating through the properties of an Object in JavaScript?",
+      "options": [
+        "A. forEach loop",
+        "B. for-of loop",
+        "C. for-in loop",
+        "D. while loop"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "What is a key difference between for...of and for..in loops in JavaScript?",
+      "options": [
+        "A. for...of is slower than for..in",
+        "B. for..in is used for arrays, for...of for objects",
+        "C. for...of is used for arrays, for..in for objects",
+        "D. for..in is easier to use than for...of"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Which loop is optimized for generic objects rather than arrays in JavaScript?",
+      "options": [
+        "A. while loop",
+        "B. for-of loop",
+        "C. for-in loop",
+        "D. do-while loop"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Why is the for..in loop not recommended for use with arrays in JavaScript?",
+      "options": [
+        "A. It is easier to use than for-of loop",
+        "B. It is slower than for-of loop",
+        "C. It is faster than for-of loop",
+        "D. It is the same as for-of loop"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "What kind of objects can the for...of loop iterate over in JavaScript?",
+      "options": [
+        "A. Iterable objects",
+        "B. Only objects",
+        "C. Only arrays",
+        "D. Non-iterable objects"
+      ],
+      "answer": ""
+    },
+    {
+      "question": "Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?",
+      "options": [
+        "A. for-of loop",
+        "B. for-in loop",
+        "C. forEach loop",
+        "D. if-else loop"
+      ],
+      "answer": ""
+    }
+  ]
+}
