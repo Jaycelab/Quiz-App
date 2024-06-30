@@ -1,0 +1,234 @@
+{
+  "questions": [
+    {
+      "question": "What is the purpose of a counter in loops?",
+      "options": [
+        "Evaluate a Boolean expression",
+        "Repeat a block of code until false",
+        "Track the number of iterations",
+        "Resume loop execution"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which keyword is used to resume execution in a loop?",
+      "options": ["continue", "break", "switch", "terminate"],
+      "correct_answer": "A"
+    },
+    {
+      "question": "In a for loop, when does the loop terminate?",
+      "options": [
+        "When break keyword is used",
+        "When the condition is truthy",
+        "When the condition is falsy",
+        "When continue keyword is used"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the purpose of an iterator in loops?",
+      "options": [
+        "Track the number of iterations",
+        "Evaluate a Boolean expression",
+        "Repeat a block of code until the condition is false",
+        "Resume loop execution"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What type of loop is used to iterate over the properties of an object?",
+      "options": ["For Loop", "While Loop", "Do While Loop", "For In Loop"],
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is the advantage of using nested loops?",
+      "options": [
+        "Terminate the loop",
+        "Iterate over a multi-dimensional array or object",
+        "Iterate over a set of instructions",
+        "Resume loop execution"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which operator is used to increase the value of the counter variable by 1 in a for loop?",
+      "options": [
+        "Addition assignment operator",
+        "Equal operator",
+        "Increment operator",
+        "Logical operator"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What happens when the condition in a loop is evaluated to be false?",
+      "options": [
+        "Loop skips to the next iteration",
+        "Loop continues indefinitely",
+        "Loop terminates and stops",
+        "Loop resumes execution"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which type of loop offers a way to iterate over the values of an iterable object?",
+      "options": ["For Loop", "While Loop", "Do While Loop", "For Of Loop"],
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is the purpose of the continue keyword in loops?",
+      "options": [
+        "Resume loop execution",
+        "Exit the loop",
+        "Terminate the loop",
+        "Add a value to the counter variable"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is the purpose of the for...of loop in JavaScript?",
+      "options": [
+        "To loop over iterable objects and access their values directly",
+        "To loop over properties of objects",
+        "To skip the current iteration and move to the next one",
+        "To terminate the loop and exit"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which keyword is used to access the value of the current element in an array within a function?",
+      "options": ["Index", "Argument", "Element", "Key"],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Why is using the for...in loop with arrays not recommended?",
+      "options": [
+        "It directly accesses the values of elements in the collection",
+        "It provides access to both index and value",
+        "It can lead to unexpected results and does not honor the order of elements",
+        "It terminates the loop and exits"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the break statement do in a loop?",
+      "options": [
+        "Skips the current iteration and moves to the next one",
+        "Increments the counter in the loop",
+        "Terminates the loop and exits",
+        "Mutates the condition of the loop"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "In the for...in loop, what does it allow you to loop over when used with objects?",
+      "options": ["Properties", "Indexes", "Values", "Keys"],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does the for...of loop give access to in terms of the current element?",
+      "options": ["Key", "Value", "Index", "Object"],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which naming convention is commonly used to represent the index of the current element in a for...of loop?",
+      "options": ["el", "item", "i", "key"],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the main difference between the for...of and for...in loops in JavaScript?",
+      "options": [
+        "for...of terminates the loop, while for...in skips iterations",
+        "for...of gives access to both index and value, while for...in only gives access to values",
+        "for...of accesses values directly, while for...in accesses properties",
+        "for...of allows looping over properties, while for...in allows looping over values"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which type of objects are suitable for iteration using the for...of loop?",
+      "options": [
+        "Objects with numeric properties",
+        "Objects with non-numeric properties",
+        "Iterable objects like arrays, strings, maps, sets, etc.",
+        "Objects with nested structures"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What loop is recommended for iterating over arrays in JavaScript?",
+      "options": ["for-in loop", "while loop", "for-of loop", "do-while loop"],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which loop allows you to conveniently loop through iterable objects like Arrays without managing incrementing logic manually?",
+      "options": ["for-of loop", "for-in loop", "forEach loop", "if-else loop"],
+      "correct_answer": "A"
+    },
+    {
+      "question": "What kind of objects can the for...of loop iterate over in JavaScript?",
+      "options": [
+        "Iterable objects",
+        "Only objects",
+        "Only arrays",
+        "Non-iterable objects"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "Why is the for..in loop not recommended for use with arrays in JavaScript?",
+      "options": [
+        "It is easier to use than for-of loop",
+        "It is slower than for-of loop",
+        "It is faster than for-of loop",
+        "It is the same as for-of loop"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which loop is optimized for generic objects rather than arrays in JavaScript?",
+      "options": ["while loop", "for-of loop", "for-in loop", "do-while loop"],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is a key difference between for...of and for..in loops in JavaScript?",
+      "options": [
+        "for...of is slower than for..in",
+        "for..in is used for arrays, for...of for objects",
+        "for...of is used for arrays, for..in for objects",
+        "for..in is easier to use than for...of"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which loop is suitable for iterating through the properties of an Object in JavaScript?",
+      "options": ["forEach loop", "for-of loop", "for-in loop", "while loop"],
+      "correct_answer": "C"
+    },
+    {
+      "question": "What type of objects should be avoided when using the for..in loop in JavaScript?",
+      "options": [
+        "Arrays",
+        "Iterable objects",
+        "Objects",
+        "Non-iterable objects"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "question": "In JavaScript, which loop creates a loop iterating over iterable objects like Map and Set?",
+      "options": ["for-in loop", "for-of loop", "forEach loop", "while loop"],
+      "correct_answer": "B"
+    },
+    {
+      "question": "What is a key advantage of using the for...of loop over the for-in loop in JavaScript?",
+      "options": [
+        "It is more complex",
+        "It is slower",
+        "It is faster",
+        "It is optimized for arrays"
+      ],
+      "correct_answer": "D"
+    }
+  ]
+}
