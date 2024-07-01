@@ -96,23 +96,23 @@
   animation-iteration-count: infinite;
 
   &--one {
-    animation-duration: 15s;
+    animation-duration: 19s;
     animation-delay: 0;
   }
 
   &--two {
-    animation-duration: 16s;
-    animation-delay: 1s;
+    animation-duration: 20s;
+    animation-delay: 2s;
   }
 
   &--three {
-    animation-duration: 14.6s;
+    animation-duration: 18.6s;
     animation-delay: 3.5s;
   }
 
   &--four {
-    animation-duration: 16s;
-    animation-delay: 5.25s;
+    animation-duration: 14s;
+    animation-delay: 4.25s;
   }
 }
 
