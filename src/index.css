@@ -13,7 +13,7 @@ body {
   fill: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/dist/images/background3.jpg");
+  background-image: url("/dist/assets/background3.jpg");
   height: 100%;
   font-family: "Akaya Telivigala", sans-serif;
   display: flex;
